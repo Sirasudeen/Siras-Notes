@@ -1,0 +1,19 @@
+technical:
+  label: Technical
+  permalink: /technical
+  description: This is a technical post!
+
+personal:
+  label: Personal
+  permalink: /personal
+  description: This is about me!
+
+update:
+  label: Update
+  permalink: /update
+  description: Here's an update!
+
+learning:
+  label: Learning
+  permalink: /learning
+  description: I learnt something!
