@@ -1,41 +1,32 @@
-# Website
+# 🧠 Siras Notes
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to **Siras Notes** — my personal digital mind palace!  
+This is a documentation and blog site where I share what I’m learning, building, and exploring in tech and beyond.
 
-## Installation
+---
 
-```bash
-yarn
-```
+## 📌 About
 
-## Local Development
+This project is built using **[Docusaurus](https://docusaurus.io/)** — a modern static site generator optimized for documentation sites.  
+I’m using it to document my progress, jot down system design concepts, problem-solving logs, side project notes, and more.
 
-```bash
-yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 📖 Features
 
-## Build
+- 📚 Personal blog with tech, problem-solving, and productivity notes  
+- 📝 System Design notes and concepts  
+- 🛠️ Project logs and experiments  
+- ✨ Clean, responsive, and minimal layout  
 
-```bash
-yarn build
-```
+---
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 🚀 Getting Started
 
-## Deployment
-
-Using SSH:
+To run this locally:
 
 ```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+git clone https://github.com/your-username/siras-notes.git
+cd siras-notes
+npm install
+npm run start
