@@ -17,3 +17,27 @@ learning:
   label: Learning
   permalink: /learning
   description: I learnt something!
+lld:
+  label: Low-Level Design
+  description: Posts about Low-Level Design patterns, case studies, and principles.
+  permalink: /blog/tags/lld
+
+solid:
+  label: SOLID Principles
+  description: Posts about the SOLID design principles in object-oriented programming.
+  permalink: /blog/tags/solid
+
+design:
+  label: Design
+  description: System and object-oriented design concepts.
+  permalink: /blog/tags/design
+
+java:
+  label: Java
+  description: Java-related code, examples, and design patterns.
+  permalink: /blog/tags/java
+
+system-design:
+  label: System Design
+  description: Design patterns and architectures for scalable systems.
+  permalink: /blog/tags/system-design

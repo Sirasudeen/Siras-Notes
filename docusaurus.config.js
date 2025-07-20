@@ -4,10 +4,10 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Siras Notes",
-  tagline: "Your personal knowledge base.",
+  tagline: "Walk into my mind palace.",
   favicon: "img/logo.png",
 
-  url: "https://siras-notes.pages.dev", // Change to your deployed URL
+  url: "https://notes.siras.dev", // Change to your deployed URL
   baseUrl: "/",
 
   organizationName: "Sirasudeen", // Your GitHub username/org
@@ -31,7 +31,7 @@ const config = {
         },
         docs: {
           sidebarPath: "./sidebars.js",
-          routeBasePath: "/intro", // Docs as the landing page
+          routeBasePath: "/", // Docs as the landing page
           showLastUpdateTime: true,
           // editUrl: "https://github.com/Sirasudeen/siras-notes",
         },
@@ -104,6 +104,12 @@ const config = {
           },
         ],
       },
+      stylesheets: [
+  {
+    href: 'https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap',
+    rel: 'stylesheet',
+  },
+],
       footer: {
         style: "dark",
         links: [

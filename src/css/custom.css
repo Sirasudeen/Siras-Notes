@@ -4,33 +4,39 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Light Theme */
 :root {
-  --ifm-color-primary: #a3c9f9;
-  --ifm-color-primary-dark: #7f9cf5;
-  --ifm-color-primary-darker: #6c8ae4;
-  --ifm-color-primary-darkest: #4e6688;
-  --ifm-color-primary-light: #b5eaea;
-  --ifm-color-primary-lighter: #d2f1fa;
-  --ifm-color-primary-lightest: #e3eafc;
-  --ifm-background-color: #f8fafc;
-  --ifm-background-surface-color: #f3f7fa;
+  --ifm-color-primary: #4a90e2; /* Medium Blue */
+  --ifm-color-primary-dark: #3a78c2;
+  --ifm-color-primary-darker: #326bb0;
+  --ifm-color-primary-darkest: #2a5c99;
+  --ifm-color-primary-light: #73aef2;
+  --ifm-color-primary-lighter: #9bc8f8;
+  --ifm-color-primary-lightest: #dceeff;
+
+  --ifm-background-color: #f9fafb; /* Soft light gray */
+  --ifm-background-surface-color: #ffffff;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: #f3f7fa;
+  --docusaurus-highlighted-code-line-bg: #f3f4f6; /* very soft gray */
+  --ifm-font-family-base: 'Inter', sans-serif;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Theme */
 [data-theme="dark"] {
-  --ifm-color-primary: #b5eaea;
-  --ifm-color-primary-dark: #7f9cf5;
-  --ifm-color-primary-darker: #6c8ae4;
-  --ifm-color-primary-darkest: #4e6688;
-  --ifm-color-primary-light: #e3eafc;
-  --ifm-color-primary-lighter: #f8fafc;
-  --ifm-color-primary-lightest: #fff9de;
-  --ifm-background-color: #232946;
-  --ifm-background-surface-color: #28294a;
-  --docusaurus-highlighted-code-line-bg: #28294a;
+  --ifm-color-primary: #a371f7; /* Soft purple */
+  --ifm-color-primary-dark: #8c5ed1;
+  --ifm-color-primary-darker: #7a4eb3;
+  --ifm-color-primary-darkest: #5e3a8f;
+  --ifm-color-primary-light: #bc8eff;
+  --ifm-color-primary-lighter: #d9baff;
+  --ifm-color-primary-lightest: #efe5ff;
+
+  --ifm-background-color: #1e1e2f; /* deep navy */
+  --ifm-background-surface-color: #2a2a3c;
+  --docusaurus-highlighted-code-line-bg: #2f2f44;
+
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --mind-kink-glow: 0 0 8px rgba(163, 113, 247, 0.4); /* glow for fancy effects */
 }
 
 nav.navbar {
@@ -68,4 +74,39 @@ li.theme-doc-sidebar-item-category.golang>div.menu__list-item-collapsible>a.menu
 
 html[data-theme="dark"] .header--github-link:before {
   background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E") no-repeat;
+}
+
+
+
+
+
+
+
+a {
+  transition: all 0.3s ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #9b59b6;
+  text-shadow: var(--mind-kink-glow);
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  padding: 1rem 2rem;
+}
+
+code, pre {
+  background: #2d2d2d;
+  color: #f1f1f1;
+  box-shadow: var(--mind-kink-glow);
+  border-radius: 6px;
+  padding: 0.2em 0.4em;
 }
