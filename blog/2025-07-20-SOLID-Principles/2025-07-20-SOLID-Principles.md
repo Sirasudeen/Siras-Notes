@@ -7,7 +7,7 @@ tags: [lld, solid, design, java, system-design]
 
 > "Good software is understandable, extensible, and maintainable. That's exactly what SOLID aims to achieve."
 
-As I started diving into **Low-Level Design (LLD)** through TUF+ and hands-on practice, one of the first core topics I focused on was the **SOLID principles**, the five fundamental guidelines that help make object-oriented design cleaner, more maintainable, and more scalable.
+As I started diving into **Low-Level Design (LLD)** through TUF+ and hands-on practice, one of the first core topics I focused on was the **SOLID principles**, the  five fundamental guidelines that help make object-oriented design cleaner, more maintainable, and more scalable.
 
 Here’s a simple breakdown of what I learned:
 

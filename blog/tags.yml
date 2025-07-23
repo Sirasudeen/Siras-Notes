@@ -26,7 +26,22 @@ solid:
   label: SOLID Principles
   description: Posts about the SOLID design principles in object-oriented programming.
   permalink: /blog/tags/solid
-
+aws:
+  label: Cloud deployment
+  description: Posts about cloud deployment and AWS services.
+  permalink: /blog/tags/aws
+serverless:
+  label: Serverless
+  description: Posts about serverless architecture and deployment.
+  permalink: /blog/tags/serverless  
+lambda:
+  label: Lambda
+  description: Posts about AWS Lambda and serverless architecture.
+  permalink: /blog/tags/lambda 
+debugging:
+  label: Debugging
+  description: Posts about debugging and troubleshooting.
+  permalink: /blog/tags/debugging
 design:
   label: Design
   description: System and object-oriented design concepts.
